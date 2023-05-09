@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+
+
+#ourstoryhero{
+    background: url('./companyhero.jpg');
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ourstory{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    color: #F9F7F3;
+    width: 50%;
+    height: 30%;
+    background-color: rgba(14,41, 65,.9);
+    padding: 40px;
+    justify-content: center;
+    -webkit-backdrop-filter: blur(1px); /* Add this line first, it fixes blur for Safari*/
+    backdrop-filter: blur(.7px);  /* This line activates blur*/
+}
+
+#ourstory p{
+    padding-top: 15px;
+}
+#theteam {
+    padding: 40px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#teamimages{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+#teamimages img{
+    height: 150px;
+    width: 150px;
+    
+}
+
+#teamimages figure{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#teamimages figcaption{
+    padding-top: 10px;
+}
+
+
+
+#theshoptxt{
+    display: grid;
+    padding: 30px 100px;
+    grid-template-columns: 1fr 3fr;
+}
+
+#theshoptxt h4{
+    display: flex;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#theshoptxt p{
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#theshopimg{
+    display: grid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-template-columns: 1.25fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    height: 450px;
+    gap: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+#machining1{
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url('./theshop/machining1.png');
+    background-size: cover;
+}
+
+#machining2{
+    display: flex;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url('./theshop/machining2.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+#machining3{
+    display: flex;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-image: url('./theshop/machining3.jpg');
+    background-size: cover;
+    background-position: bottom;
+}

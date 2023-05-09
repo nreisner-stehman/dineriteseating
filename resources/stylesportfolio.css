@@ -1,0 +1,163 @@
+#herotext{
+    width: 100%;
+    text-align: center;
+
+}
+
+.testimonial_title{
+    padding-bottom: 10px;
+}
+
+.testimonial_underline{
+    padding-bottom: 5px;
+}
+#testimonialgrid{
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-gap: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial_text{
+    font-size: .875rem;
+}
+
+#business1{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-gap: 40px;
+}
+
+
+#business2{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-gap: 40px;
+}
+
+
+
+#business3{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr;
+    grid-gap: 40px;
+}
+
+#business1_imgs{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+#b1image1_2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+
+    box-sizing: border-box;
+}
+
+#b1img1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image: url('./lvdhospitality/image1.jpg');
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+#b1img2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url('./lvdhospitality/image2.jpg');
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+#b1img3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-image: url('./lvdhospitality/imag3.jpg');
+    background-size: cover;
+}
+
+#business2_imgs{
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+}
+
+#b2image1_2{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    box-sizing: border-box;
+
+}
+
+#b2img1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-image: url('./georgemartingroup/image1.png');
+    background-size: cover;
+}
+#b2img2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-sizing: border-box;
+    background-image: url('./georgemartingroup/image2.png');
+    background-size: cover;
+}
+
+#b2img3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-image: url('./georgemartingroup/image3.jpg');
+    background-size: cover;
+}
+
+#business3_imgs{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+#b3image1_2{
+
+    display: grid;
+    grid-template-rows: 50% 50%;
+    box-sizing: border-box;
+}
+
+#b3img1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-image: url('./dallago/image1.jpg');
+    background-size: cover;
+}
+#b3img2{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    box-sizing: border-box;
+    background-image: url('./dallago/image2.jpeg');
+    background-size: cover;
+}
+
+#b3img3{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    box-sizing: border-box;
+    margin-left: 10px;
+    background-image: url('./dallago/image3.jpg');
+    background-size: cover;
+}
+
+.testimonial{
+    background-color: #D9B07F;
+    padding: 20px;
+}

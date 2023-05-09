@@ -1,0 +1,155 @@
+#theprocesshero{
+    background-image: url('./theprocess/theprocesshero.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-position: middle;
+    z-index: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#itallstarts{
+    z-index: 10;
+    background-color: rgba(217, 176, 127, .8);
+    padding: 25px;
+    display: flex;
+    font-weight: 600;
+    color: #F9F7F3;
+    margin-left: 120px;
+    -webkit-backdrop-filter: blur(1px); /* Add this line first, it fixes blur for Safari*/
+    backdrop-filter: blur(.7px);  /* This line activates blur*/
+}
+
+#theprocessbody{
+ z-index: 100;
+ display: grid;
+ grid-template-columns: 60px 6fr;
+ grid-template-rows: repeat(6, 150px);
+ margin: auto;
+ grid-gap: 30px;
+ width: 80%;
+ padding-top: -10px;
+ padding-bottom: 40px;
+}
+
+#theprocessbody h6{
+    padding-bottom: 10px;
+}
+
+#num1{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+#step1desc{
+    grid-row-start: 1;
+    grid-column-start: 2;
+ background-image: linear-gradient(to right, rgba(249, 247, 243, 1) 85%, rgba(249, 247, 243, 0)),
+                        url(./theprocess/step1consult.jpg);
+    background-size: auto 250%;
+    background-repeat:no-repeat;
+    background-position: right;
+    align-items: right;
+}
+
+
+#num2{
+    grid-row: 2;
+    grid-column: 1; 
+}
+
+#step2desc{
+    grid-row-start: 2;
+    grid-column-start: 2;
+    background-image: linear-gradient(to right, rgba(249, 247, 243, 1) 85%, rgba(249, 247, 243, 0)),
+    url(./theprocess/step2drawing.jpg);
+background-size: auto 250%;
+background-repeat:no-repeat;
+background-position: right;
+align-items: right;
+}
+
+#num3{
+    grid-row: 3;
+    grid-column: 1; 
+}
+
+#step3desc{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    background-image: linear-gradient(to right, rgba(249, 247, 243, 1) 85%, rgba(249, 247, 243, 0)),
+    url(./theprocess/step3engdwg.jpg);
+    background-size: auto 250%;
+    background-repeat:no-repeat;
+    background-position: right;
+    align-items: right;
+}
+
+#num4{
+    grid-row: 4;
+    grid-column: 1; 
+}
+
+#step4desc{
+    grid-row-start: 4;
+    grid-column-start: 2;
+    background-image: linear-gradient(to right, rgba(249, 247, 243, 1) 91%, rgba(249, 247, 243, 0)),
+    url(./theprocess/step4fabrication.jpg);
+    background-size: auto 400%;
+    background-repeat:no-repeat;
+    background-position: right;
+    align-items: right;
+}
+
+
+#num5{
+    grid-row: 5;
+    grid-column: 1; 
+}
+
+#step5desc{
+    grid-row-start: 5;
+    grid-column-start: 2;
+    background-image: linear-gradient(to right, rgba(249, 247, 243, 1) 85%, rgba(249, 247, 243, 0)),
+    url(./theprocess/step5installation.jpg);
+    background-size: auto 250%;
+    background-repeat:no-repeat;
+    background-position: right;
+    align-items: right;
+}
+
+
+
+#num6{
+    grid-row: 6;
+    grid-column: 1; 
+}
+
+#step6desc{
+    grid-row-start: 6;
+    grid-column-start: 2;
+    background-image: linear-gradient(to right, rgba(249, 247, 243, 1) 85%, rgba(249, 247, 243, 0)),
+    url(./theprocess/step6followup.jpg);
+    background-size: auto 250%;
+    background-repeat:no-repeat;
+    background-position: right;
+    align-items: right;
+
+}
+.stepdescription p{
+    margin-right: 300px;
+}
+
+.number h4{
+    display: flex;
+    background-color:rgba(217, 176, 127, 1);
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+    /* margin-top: 10px; */
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #F9F7F3;
+}

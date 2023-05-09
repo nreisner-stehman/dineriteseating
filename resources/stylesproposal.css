@@ -1,0 +1,30 @@
+#requestproposalhero{
+    display: flex;
+    height: 600px;
+    background-size: cover;
+    background-image: url('./requestproposalhero.jpg');
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #F9F7F3;
+}
+
+form p{
+    font-size: .875rem;
+
+}
+
+form [type='radio']{
+    margin-top: 3px;
+    padding: 6px;
+    
+}
+
+#phone_cont{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: blue;
+}
