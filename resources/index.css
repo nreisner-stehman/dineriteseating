@@ -11,7 +11,7 @@ h1 {
 
 h2{
     font-family: 'Outfit';
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4.1875rem;
     letter-spacing: -0.5px;
 }
@@ -69,7 +69,7 @@ figcaption{
     letter-spacing: 1.25px;
     text-transform: uppercase;
     padding: 10px 20px;
-    border-radius: 100px;
+    border-radius: 5px;
     background-color:rgba(14, 41, 65, 1);
     color: #F9F7F3; 
 }
@@ -203,11 +203,12 @@ main{
 #heroimage{
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient( rgba(14,41, 65,.6), rgba(14,41,65,.5) ),
-                        url(./homeheroimage.jpg);
-    height: 70vh;
+    background-image: linear-gradient(to right, rgba(14,41, 65, .6) 10%, rgba(14,41, 65,0)),
+                       url('./homehero.jpeg');
+    height: 75vh;
     background-size: cover;
-    background-color: rgba(14, 41, 65, 0.6);
+    background-repeat: no-repeat;
+    background-position: center;    
     justify-content: center;
     text-align: center;
     color: #F9F7F3;
@@ -216,8 +217,16 @@ main{
 
 #herotext{
     display: inline-block;
-    margin-top: 100px;
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 2%;
+}
 
+#herotext p{
+    width: 40%;
+    padding-top: 5px;
+    font-size: 1.115rem;
+    padding-bottom: 25px;
 }
 
 #conceptgrid{
@@ -283,7 +292,15 @@ main{
     transition: color .25s ease-in;
     transition: background-color .25s ease-in;
 }
+
+#herotext .button:hover{
+    background-color: #FBCAC2;
+    color: #FF6F61;
+    transition: color .25s ease-in;
+    transition: background-color .25s ease-in;
+}
 .coralbutton{
+    font-size: 0.875rem;
     background-color: #FF6F61;
     color: #F9F7F3;
     width: fit-content;
